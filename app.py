@@ -8,6 +8,7 @@ import os
 
 # --- Configuration ---
 openai.api_key = st.secrets  # Store your key in secrets.toml
+print("st.secrets ",st.secrets)
 
 st.set_page_config(page_title="AI PDF Markup Tool", layout="wide")
 st.title("AI-Powered PDF Markup Tool")
